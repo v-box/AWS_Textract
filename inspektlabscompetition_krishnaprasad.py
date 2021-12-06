@@ -32,8 +32,8 @@ def get_kv_map(file_name):
       #print('Image loaded', file_name)
 
   # process using image bytes
-  AWSAccessKeyId = 'AKIAT3ANGMEQLKMQ5N7B'
-  AWSSecretKey = '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'
+  AWSAccessKeyId = ''
+  AWSSecretKey = ''
 
   client = boto3.client(
       'textract',
