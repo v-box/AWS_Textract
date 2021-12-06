@@ -1,0 +1,35 @@
+### Instructions for Code testing
+
+NOTE: USE COLAB OR JUPYTER NOTEBOOKS TO RUN MY CODE
+
+1 actually i was used colab notebooks for this Task 
+2 so you also use colab to run my code
+3 primarily you should install all required packages using commands in my code
+4 you must have rc images in RC folder
+5 then run code, it gives you output file and check it once
+
+
+
+
+### My Approach Towards this task completion
+
+1 at the 1st i used pytesseract to extract text from image but it detected word as wrong
+2 so i decided to learn AWS Textract to extract text from images
+3 as above i learned document to text analysis for text extraction
+4 but it hard to extract what values we want
+5 so i learned another method in AWS Textract called FORMS
+6 with FORMS method we can extract any value from image with only by giving key which we want
+7 by giving key it gives us exact value from image
+8 then i decided to extract all data from all images
+9 I wrote that code to any image in rc should work and extract all values
+10 Mainly given RC images have different formats from different states
+11 so we have to read every image manually to know how many types images were given
+12 then i got some different key names from given images
+13 Then it works on any image to extract values from image
+14 after extraction of data which we want from images
+15 it is converted as one csv file also like xls file
+16 and that output data is 100% accurate correct
+17 data extraction process is depends on images which we are working
+18 some images are so blur to see is impossible even to humans
+19 so we should give clarity images to system then it would detected all accurate data
+20 or else it can detect only some data which is visible to system 
